@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/2017/05/hugo-blog-setup/</loc>
+    <loc>https://shadowind.github.io/Personal_Website/2017/05/hugo-blog-setup/</loc>
     <lastmod>2017-05-16T11:38:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://shadowind.github.io/Personal_Website/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/post/</loc>
-    <lastmod>2017-05-16T11:38:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/</loc>
+    <loc>https://shadowind.github.io/Personal_Website/post/</loc>
     <lastmod>2017-05-16T11:38:14-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://shadowind.github.io/Personal_Website/</loc>
+    <lastmod>2017-05-16T11:38:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shadowind.github.io/Personal_Website/tags/</loc>
     <priority>0</priority>
   </url>
   
