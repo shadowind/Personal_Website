@@ -33,5 +33,28 @@ Copy the config.toml in themes sampleSite to main folder, I can tweek it to suit
 hugo server
 ```  
 
-### Push the content to Github
+### Push the content to Github  
+First go to github to create a new repo. Copy the SSH  
+```  
+git status
+git add --all
+git commit -m "first commit"
+git remote add origin git@github.com:shadowind/Personal_Website.git  
+git push -u origin master
+```
+We need first put some content on the github repo then proceed with initial set up.  
+However I encountered fatal error when I do the last step. It says  
+"Permission denied (publickey).  
+fatal: Could not read from remote repository." 
 
+So this clearly is my SSH error, however I can't remeber what's my github rsa key is. So I used the following guide to help me set up an old SSH key in my computer to github:  
+
+Find existing SSH keys in my mac
+```
+ls -al ~/.ssh # Make sure I already have some SSH keys
+```
+Recovering your SSH key passphrase <https://help.github.com/articles/recovering-your-ssh-key-passphrase/>
+Adding your SSH key to the ssh-agent <https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent>
+Adding a new SSH key to your GitHub account<https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>
+Add the following argument to config.toml file:
+> publishDir = "docs"

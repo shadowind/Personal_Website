@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sumi Blog</title>
+    <link>https://example.org/post/</link>
+    <description>Recent content in Posts on Sumi Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 May 2017 11:38:14 -0700</lastBuildDate>
+    
+	<atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Blog Setup</title>
+      <link>https://example.org/2017/05/hugo-blog-setup/</link>
+      <pubDate>Tue, 16 May 2017 11:38:14 -0700</pubDate>
+      
+      <guid>https://example.org/2017/05/hugo-blog-setup/</guid>
+      <description>Hello, welcome to my new blog, here I&amp;rsquo;m using Hugo to build my static website to store study notes, work project etc. I followed the tutorial [here]https://www.youtube.com/watch?v=3wkR8GyDODs
+Download Hugo Since I&amp;rsquo;m using both a mac and a windows, here I setup my the website using mac, in terminal
+brew install hugo hugo help # To check the installation sucessfully  Create a website locally mkdir &amp;lt;dir&amp;gt; # Create a directory to store the content cd &amp;lt;dir&amp;gt; # go to the directory hugo new site &amp;lt;sitename&amp;gt; # Create site cd &amp;lt;sitename&amp;gt; hugo new post/hugo-blog-setup.</description>
+    </item>
+    
+  </channel>
+</rss>

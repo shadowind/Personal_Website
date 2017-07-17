@@ -2,6 +2,7 @@
 #
 baseurl = "https://example.org/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Sumi Blog"
 theme = "simple"
 # number of posts to show on home/category/tag pages (Default: 10)
