@@ -58,3 +58,6 @@ Adding your SSH key to the ssh-agent <https://help.github.com/articles/generatin
 Adding a new SSH key to your GitHub account<https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>
 Add the following argument to config.toml file:
 > publishDir = "docs"
+
+follow the git add, commit, push process again mentioned above. And see there's a new folder call "docs" also available in repo. Go to settings, in "Github Pages" section, choose build the site on master brance /docs folder. Click Save. Once it's done, it will show the following as the url. 
+https://shadowind.github.io/Personal_Website/
